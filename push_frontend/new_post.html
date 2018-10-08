@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Oprexta - Create Post</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <header>
+      <h3>Admin Area</h3>
+    </header>
+
+    
+
+<div id="content">
+
+  <a class="back-link" href="/globe_bank/public/staff/pages/index.php">&laquo; Back to List</a>
+
+  <div class="page new">
+    <h3>Create Post</h3>
+
+    
+    <form action="new_post.php" method="post">
+      <dl>
+        <dt>Post Title</dt>
+        
+      
+      
+        <dd><input type="text" name="post_title" value="" /></dd>
+      </dl>
+      
+        <dt>Visible</dt>
+        <dd>
+          <input type="hidden" name="post_visible" value="0"  />
+          <input type="checkbox" name="post_visible" value="1" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>Content</dt>
+        <dd>
+          <textarea name="post_content" cols="60" rows="10"></textarea>
+        </dd>
+      </dl>
+      <dl>
+        <dt>Post Tag</dt>
+        
+      
+      
+        <dd><input type="text" name="first_tag" value="" /></dd>
+      </dl>
+      <dl>
+        <dt>Post Tag</dt>
+        
+      
+      
+        <dd><input type="text" name="second_tag" value="" /></dd>
+      </dl>
+      <dl>
+        <dt>Post Tag</dt>
+        
+      
+      
+        <dd><input type="text" name="third_tag" value="" /></dd>
+      </dl>
+      <div id="operations">
+        <input type="submit" value="Create Post" />
+      </div>
+    </form>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
+
